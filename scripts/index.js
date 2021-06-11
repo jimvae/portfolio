@@ -53,17 +53,9 @@ $(function() {
     if (pos2 > $('#about').offset().top) {
       highlightLink('about');
     }
-    if (pos2 > $('#portfolio').offset().top) {
+    if (pos2 > $('#portfolio').offset().top ||
+      pos + $(window).height() === $(document).height()) {
       highlightLink('portfolio');
-    }
-    if (pos2 > $('#blog').offset().top) {
-      highlightLink('blog');
-    }
-    if (
-      pos2 > $('#contact').offset().top ||
-      pos + $(window).height() === $(document).height()
-    ) {
-      highlightLink('contact');
     }
 
     // Prevent Hover on Scroll
