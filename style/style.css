@@ -120,6 +120,12 @@ a {
   text-decoration: none;
 }
 
+.date {
+  font-family: "Open sans";
+  font-size: 9pt;
+  margin: 0 0 0 0;
+}
+
 body {
   color: #fff;
   font-family: "Raleway";
@@ -531,6 +537,15 @@ section:nth-of-type(2) .bullet-wrap {
 section:nth-of-type(2) .highlight {
   color: #009ada;
 }
+
+section:nth-of-type(2) .skill-title {
+  color: #e31b6d;
+}
+
+section:nth-of-type(2) .tech-title {
+  color: black;
+}
+
 section:nth-of-type(2) .up-arrow {
   height: 30px;
   margin: 15px 0;
@@ -564,7 +579,7 @@ section:nth-of-type(2) .bars-wrap:not(.animated) .fill {
 }
 section:nth-of-type(2) .bar {
   align-items: flex-end;
-  background-color: #eee;
+  background-color: white;
   color: #666;
   font-size: 7pt;
   height: 22px;
@@ -1458,6 +1473,19 @@ footer .footnote .highlight {
     margin: 0 0 50px 20px;
     width: 270px;
   }
+}
+
+.my-dev-icon {
+  font-size: 60px;
+}
+
+.my-image-icon {
+  width: 60px;
+  padding-top: 10px;
+}
+
+.skillset {
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
