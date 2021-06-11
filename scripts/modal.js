@@ -1,64 +1,40 @@
 $(document).ready(function() {
   // MODAL
   var modalText = {
-    discover: {
-      title: 'ChowNow Discover',
-      tag: 'FOOD ORDERING PLATFORM.',
+    brainhack: {
+      title: 'BrainHack',
+      tag: 'FACE RECOGNITION WEB APPLICATION',
       detail:
-        'ChowNow Discover is a platform that lets customers discover new local restaurants and provides business owners with tools to convert first time orders into lifelong diners.',
-      link: 'https://eat.chownow.com/'
+        'BrainHack is a web application that uses the Clarifai Face Detection API to detect a faces inside a picture. The goal of this project is to get an introduction to web development and full-stack technologies. ',
+      link: 'https://my-brain-hack.herokuapp.com/'
     },
-    ordering: {
-      title: 'ChowNow Ordering Web',
-      tag: 'WHITE-LABEL ONLINE ORDERING SOLUTION.',
+    robofriends: {
+      title: 'Robofriends',
+      tag: 'WEB APPLICATION',
       detail:
-        'ChowNow is a commission-free online ordering system and food ordering app helping restaurants feed their hungry customers.',
-      link: 'https://direct.chownow.com/direct/195/locations/260'
+        'BrainHack is a simple web application made using React.js, taking advantage of Redux, React Hooks and React Thunk. Check the website and press Mutate!',
+      link: 'https://jimvae.github.io/Robofriends/'
     },
-    newrelic: {
-      title: 'NewRelic.com',
-      tag: 'APPLICATION PERFORMANCE MONITORING.',
+    archangel: {
+      title: 'Archangel',
+      tag: 'DESKTOP APPOINTMENT MANAGEMENT APPLICATION',
       detail:
-        'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-      link: 'http://www.newrelic.com'
+        'This is Archangel, an appointment management system for Psychiatrists.',
+      link: 'https://ay2021s1-cs2103t-w11-1.github.io/tp/'
     },
-    roambi: {
-      title: 'Roambi.com',
-      tag: 'BUSINESS ANALYTICS.',
+    snus: {
+      title: 'SNUS',
+      tag: 'ANDROID PRODUCTIVITY APPLICATION ',
       detail:
-        'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-      link: 'http://www.roambi.com'
+        'SNUS is an all-in-one student productivity application for NUS students, featuring Calendar Planner, Profile, Messaging, Module Forum and Information from NUSMods API',
+      link: 'https://github.com/jimvae/SNUS'
     },
-    walker: {
-      title: 'WalkerTracker',
-      tag: 'PERFORMANCE METRICS.',
+    rip: {
+      title: 'Rest In Peace',
+      tag: 'TOP-DOWN 3D ACTION GAME',
       detail:
-        'Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.'
-    },
-    powur: {
-      title: 'Powur.com',
-      tag: 'CONSUMER POWERED MARKETING.',
-      detail:
-        'Powur is a marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.',
-      link: 'http://www.powur.com/with/42'
-    },
-    mystand: {
-      title: 'MyStand',
-      tag: 'CROWD-FUNDED CHARITY.',
-      detail:
-        'MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.'
-    },
-    never: {
-      title: 'NeverSurrender',
-      tag: 'ALS AWARENESS.',
-      detail:
-        'NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.'
-    },
-    themall: {
-      title: 'The Mall',
-      tag: 'PEER GUIDED SHOPPING.',
-      detail:
-        'The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.'
+        ' Transported to an alternate world overrun by zombies, the protagonist armed, with his trusty revolver, have to collect energy crystals spread across the map to escape this twisted world. Will you help him in his quest to escape?',
+      link: 'https://uvents.nus.edu.sg/event/18th-steps/module/CS3247/project/1'
     }
   };
 
@@ -160,7 +136,7 @@ $(document).ready(function() {
     $.each($('#modal .slide'), function(index, value) {
       $(this).css({
         background:
-          "url('img/slides/" + id + '-' + index + ".jpg') center center/cover",
+          "url('img/slides/" + id + '-' + index + ".png') center center/cover",
         backgroundSize: 'cover'
       });
     });
