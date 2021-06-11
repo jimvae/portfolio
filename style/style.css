@@ -601,6 +601,18 @@ section:nth-of-type(2) .bar:nth-child(9) .fill {
 section:nth-of-type(2) .bar:nth-child(10) .fill {
   transition: 2s 0.2s width ease-in-out;
 }
+
+section:nth-of-type(2) .bar:nth-child(11) .fill {
+  transition: 2.1s 0.2s width ease-in-out;
+}
+
+section:nth-of-type(2) .bar:nth-child(12) .fill {
+  transition: 2.2s 0.2s width ease-in-out;
+}
+
+section:nth-of-type(2) .bar:nth-child(13) .fill {
+  transition: 2.3s 0.2s width ease-in-out;
+}
 section:nth-of-type(2) .bar span {
   display: none;
 }
