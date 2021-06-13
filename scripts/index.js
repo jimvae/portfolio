@@ -50,8 +50,14 @@ $(function() {
     if (pos2 > $('#home').offset().top) {
       highlightLink('home');
     }
+
+    
     if (pos2 > $('#about').offset().top) {
       highlightLink('about');
+    }
+
+    if (pos2 > $('#work').offset().top) {
+      highlightLink('work');
     }
     if (pos2 > $('#portfolio').offset().top ||
       pos + $(window).height() === $(document).height()) {
